@@ -4,8 +4,13 @@ Concepto matemático:
 Dada una función f que mapea cada letra del alfabeto original a su correspondiente letra al revés del alfabeto, el cifrado de Atbash consiste en aplicar esta función a cada letra del texto original para obtener el texto cifrado.
 
 Fórmula : 
-Sea P el conjunto de letras del alfabeto original y C el conjunto de letras del alfabeto cifrado, y sea f: P->C 
-Entonces para cada letra p en el texto original, la letra cifrada c se alcula como :  c=f(p) 
+
+Sea P el conjunto de letras del alfabeto original y C el conjunto de letras del alfabeto cifrado, y sea :
+f: P->C 
+
+Entonces para cada letra p en el texto original, la letra cifrada c se alcula como :  
+c=f(p) 
+
 Donde p es la letra original y c la cifrada. 
 
 
