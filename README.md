@@ -1,4 +1,4 @@
-El link al repositorio es: [github](https://github.com/GonzaloGmv/atbash)
+El link al repositorio es: [github](https://github.com/GonzaloGmv/atbash)  
 
 Los que hemos hecho este trabajo somos:
 - Carlos Puigserver
@@ -7,20 +7,19 @@ Los que hemos hecho este trabajo somos:
 
 Concepto matemático:
 
-Asignación de valores numéricos a las letras del alfabeto: Primero, necesitamos asignar un valor numérico a cada letra del alfabeto. Podemos hacer esto utilizando la codificación ASCII, donde cada letra tiene un valor numérico único.
-
-Inversión de los valores numéricos: En el cifrado de Atbash, la clave está en invertir estos valores numéricos. Esto significa que la primera letra del alfabeto tendrá el valor numérico más alto, y viceversa.
+El cifrado de Atbash es un tipo de cifrado por sustitución en el que cada letra del alfabeto se reemplaza por su letra opuesta en el mismo alfabeto. Es decir, la primera letra se reemplaza por la última, la segunda por la penúltima, y así sucesivamente.
 
 Fórmula:
+Dada una letra p  del alfabeto original, la fórmula para calcular su correspondiente letra cifrada c en el cifrado de Atbash es:
 
-Para cifrar una letra p del alfabeto, seguimos estos pasos:
+c=(25-p)
 
-Obtenemos el valor numérico asociado a la letra original p
-Invertimos este valor numérico para obtener el valor de la letra cifrada c
-Convertimos este valor numérico nuevamente en la letra cifrada c
+Donde la letra p es el índice de la letra en el alfabeto.
 
-Para la inversión, podemos utilizar la siguiente fórmula:
-c=25-(p-97)
-Donde:
-p es el valor numérico de la letra original (en minúscula), y 97 es el valor numérico de la letra 'a' en ASCII.
+Esto es viendo que A en el índice es el número 0, y si empezásemos en uno, sería la misma fórmula +1.  
+![bb](https://github.com/GonzaloGmv/atbash/assets/91721643/54ce4d72-b586-456c-8b6d-8e3f0cafbf3b)
+
+
+
+
 
