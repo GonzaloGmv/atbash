@@ -16,11 +16,9 @@ c=(25-p)
 
 Donde la letra p es el índice de la letra en el alfabeto. Siendo 25 la cantidad del número de letras.
 
-Esto es viendo que A en el índice es el número 0, es decir, empezamos a contar desde 0. Si por el contrario empezásemos en uno, sería la misma fórmula +1, o cambiando el 25 por un 26:
+Esto es viendo que A en el índice es el número 0, es decir, empezamos a contar desde 0. Si por el contrario empezásemos en uno, sería la misma fórmula +1, y cambiando el 25 por un 26:
 
-c=(25-p)+1
-
-c=(26-p)
+c=(26-p)+1
 
 El código que hemos realizado es el siguiente:
 
