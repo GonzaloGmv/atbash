@@ -4,22 +4,23 @@ Los que hemos hecho este trabajo somos:
 - Carlos Puigserver
 - Gonzalo MArtínez
 
-El cifrado de Atbash es un tipo de cifrado por sustitución que se puede representar matemáticamente mediante una función de sustitución.
 
 Concepto matemático:
-Dada una función f que mapea cada letra del alfabeto original a su correspondiente letra al revés del alfabeto, el cifrado de Atbash consiste en aplicar esta función a cada letra del texto original para obtener el texto cifrado.
 
-Fórmula : 
+Asignación de valores numéricos a las letras del alfabeto: Primero, necesitamos asignar un valor numérico a cada letra del alfabeto. Podemos hacer esto utilizando la codificación ASCII, donde cada letra tiene un valor numérico único.
 
-Sea P el conjunto de letras del alfabeto original y C el conjunto de letras del alfabeto cifrado, y sea :
-f: P->C 
+Inversión de los valores numéricos: En el cifrado de Atbash, la clave está en invertir estos valores numéricos. Esto significa que la primera letra del alfabeto tendrá el valor numérico más alto, y viceversa.
 
-Entonces para cada letra p en el texto original, la letra cifrada c se alcula como :  
-c=f(p) 
+Fórmula:
 
-Donde p es la letra original y c la cifrada. 
+Para cifrar una letra p del alfabeto, seguimos estos pasos:
 
+Obtenemos el valor numérico asociado a la letra original p
+Invertimos este valor numérico para obtener el valor de la letra cifrada c
+Convertimos este valor numérico nuevamente en la letra cifrada c
 
-
-![aa](https://github.com/GonzaloGmv/atbash/assets/91721643/f9a2c3ce-077a-4f39-a2e2-8f73577c0f19)
+Para la inversión, podemos utilizar la siguiente fórmula:
+c=25-(p-97)
+Donde:
+p es el valor numérico de la letra original (en minúscula), y 97 es el valor numérico de la letra 'a' en ASCII.
 
