@@ -15,8 +15,8 @@ def cifrado_atbash(texto):
 
     return texto_cifrado
 
-# Ejemplo de uso
-texto_original = "Hola Mundo"
+# Solucion
+texto_original = "gsvuoztrhhzbdvzivxizab"
 texto_cifrado = cifrado_atbash(texto_original)
 print("Texto original:", texto_original)
 print("Texto cifrado:", texto_cifrado)
