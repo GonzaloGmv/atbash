@@ -1,3 +1,9 @@
+El link al repositorio es: [github](https://github.com/GonzaloGmv/atbash)
+
+Los que hemos hecho este trabajo somos:
+- Carlos Puigserver
+- Gonzalo MArtínez
+
 El cifrado de Atbash es un tipo de cifrado por sustitución que se puede representar matemáticamente mediante una función de sustitución.
 
 Concepto matemático:
