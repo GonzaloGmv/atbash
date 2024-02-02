@@ -16,7 +16,12 @@ c=(25-p)
 
 Donde la letra p es el índice de la letra en el alfabeto.
 
-Esto es viendo que A en el índice es el número 0, y si empezásemos en uno, sería la misma fórmula +1.  
+Esto es viendo que A en el índice es el número 0, es decir, emepezamos a cotar desde 0. Si por el contrario empezásemos en uno, sería la misma fórmula +1:
+
+c=(25-p)+1
+
+El código que hemos realizado es el siguiente:
+
 ![bb](https://github.com/GonzaloGmv/atbash/assets/91721643/54ce4d72-b586-456c-8b6d-8e3f0cafbf3b)
 
 
