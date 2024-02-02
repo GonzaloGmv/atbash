@@ -2,7 +2,7 @@ El link al repositorio es: [github](https://github.com/GonzaloGmv/atbash)
 
 Los que hemos hecho este trabajo somos:
 - Carlos Puigserver
-- Gonzalo MArtínez
+- Gonzalo Martínez
 
 
 Concepto matemático:
